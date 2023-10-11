@@ -1,0 +1,22 @@
+.header1{
+  display: flex;
+    justify-content: space-between;
+  background: #fcfcfa;
+  align-items: center;
+  a{
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  &__collections-nav{
+    display: flex;
+    justify-content: start;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    padding-right: 2rem;
+    a{
+      padding-right: 1rem;
+    }
+  }
+}
