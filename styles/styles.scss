@@ -1,6 +1,26 @@
 @use './reset';
 @use '../components/components';
-body{
-    background-color: beige;
-    color: #fff;
+
+body {
+  background-color: #e1e2e1;
+  color: #fff;
+}
+
+.fixed-nav{
+  &.transparent-nav{
+    .header{
+        background-color: transparent;
+        .logo{
+            color: #fff;
+        }
+        a{
+            color: #fff;
+        }
+    }
+  }
+     .header {
+      position: fixed;
+      z-index: 15;
+        width: 100%;
+    }
 }
